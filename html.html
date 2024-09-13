@@ -16,10 +16,10 @@
         $('#footer').load('./footer.html');
       });
       $(window).scroll(function() {
-			if($(window).scrollTop() > 200) {
-				$('header, .grid_menu, .Side_header, .Bottom_nav, .Top_banner_section, .Main_header, .Main_header_act').addClass('act');
+			if($(window).scrollTop() > 40) {
+				$('header, .header, .Side_header, .Bottom_nav, .Main_header, .Main_header_act').addClass('act');
 			} else {
-				$('header, .grid_menu, .Side_header, .Bottom_nav, .Top_banner_section, .Main_header, .Main_header_act').removeClass('act');
+				$('header, .header, .Side_header, .Bottom_nav, .Main_header, .Main_header_act').removeClass('act');
 			}
 		});
     </script>
